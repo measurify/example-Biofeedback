@@ -76,8 +76,6 @@ Data is uploaded as a JSON array of timestamped samples:
   { "timestamp": "1684833177752.00", "values": [0.7, -0.4] }
 ]
 ```
-
-The `feature` is named `Biofeedback`, the `thing` is `User`, and the `device` is `DeviceA`. Sessions are authenticated with a token valid for 30 minutes.
 ## Quick Start
 
 ### 1. Set up the hardware
