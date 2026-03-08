@@ -1,7 +1,7 @@
 # Design and Development of a System for Biofeedback Experiments
 
 ## Overview
-This thesis describes the design and development of a low-cost, wearable embedded system for biofeedback experiments. The system measures physiological parameters — heart rate and galvanic skin response (GSR) — using sensors connected to an Arduino Nano 33 BLE Sense board paired with a rechargeable battery module, making it fully stand-alone.
+This thesis describes the design and development of a low-cost, embedded system for biofeedback experiments. The system measures physiological parameters — heart rate and galvanic skin response (GSR) — using sensors connected to an Arduino Nano 33 BLE Sense board paired with a rechargeable battery module, making it fully stand-alone.
 
 Collected data is transmitted in real time via Bluetooth Low Energy (BLE) to a custom mobile application built with the [Flutter](https://flutter.dev/) framework using the Dart programming language. The app displays live charts of the measured signals and periodically uploads data via HTTP to the [Measurify](https://github.com/measurify/measurify.github.io) IoT cloud framework, developed by the Elios Lab at the University of Genova, where it can be stored and further processed.
 
@@ -12,7 +12,7 @@ The main components:
 - **Microcontroller** — [Arduino Nano 33 BLE Sense](https://docs.arduino.cc/hardware/nano-33-ble-sense)
 - **Battery module** — LIR2450 Li-Ion rechargeable cell (3.6V), soldered onto the back of the board by Elios Lab
 - **Heart rate sensor** — [Pulse Sensor](https://pulsesensor.com/)
-- **Skin conductance sensor** — [Grove GSR Sensor] (https://files.seeedstudio.com/wiki/Grove-GSR_Sensor/res/Grove-GSR_Sensor_WiKi.pdf)
+- **Skin conductance sensor** — [Grove GSR Sensor](https://files.seeedstudio.com/wiki/Grove-GSR_Sensor/res/Grove-GSR_Sensor_WiKi.pdf)
 
 
 The complete wiring diagram is shown below:
