@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "smart_collector",
+            "cwd": "smart_collector",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "smart_collector (profile mode)",
+            "cwd": "smart_collector",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "smart_collector (release mode)",
+            "cwd": "smart_collector",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+    ]
+}
